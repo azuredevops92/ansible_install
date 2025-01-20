@@ -1,0 +1,10 @@
+Ansible installation
+====================
+sudo yum install epel-release -y
+yum install python3 -y
+vi ~/.bashrc
+export PATH=$PATH:/usr/local/bin/
+source ~/.bashrc
+yum install ansible -y
+ansible --version
+
